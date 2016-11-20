@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('hello webhook');
+  res.send('hello hairpull');
 });
 
 app.listen(process.env.PORT || 5000);
